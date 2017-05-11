@@ -1,0 +1,106 @@
+html, html a {
+    -webkit-font-smoothing: antialiased !important;
+}
+
+@font-face {
+  font-family: NexusSansWebPro;
+  src: url("../fonts/NexusSansWebPro.eot");
+}
+
+@font-face {
+  font-family: 'NexusSansWebPro';
+  src:  url('../fonts/NexusSansWebPro.woff') format('woff');
+}
+
+@media (min-width: 1200px) {
+  .container {
+      width: 900px;
+    }
+}
+
+@media (min-width: 992px) {
+  .container {
+      width: 900px;
+    }
+}
+
+#logo {
+  margin:10px 0 20px 0;
+}
+
+@media (min-width: 768px) {
+  #logo {
+      margin:40px 0 20px 0;
+    }
+}
+
+hr.split {
+    border-top: 2px dashed #333;
+    background: #fff;
+    padding:0;
+    margin:30px 0 38px 0;
+}
+
+.call1 {
+  font-family: 'NexusSansWebPro', sans-serif;
+  font-weight:normal;
+  font-size: 24px;
+  padding:0;
+  margin:3px 0 3px 0;
+}
+
+.call2 {
+  font-family: 'NexusSansWebPro', sans-serif;
+  font-weight:normal;
+  font-size: 24px;
+  padding:0;
+  margin:3px 0 25px 0;
+}
+
+.call3 {
+  font-family: 'NexusSansWebPro', sans-serif;
+  font-weight:normal;
+  font-size: 20px;
+  padding:0;
+  margin:40px 0 25px 0;
+}
+
+@media (min-width: 768px) {
+  .call1 {
+    font-family: 'NexusSansWebPro', sans-serif;
+    font-weight:normal;
+    font-size: 30px;
+    padding:0;
+    margin:3px 0 3px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .call2 {
+    font-family: 'NexusSansWebPro', sans-serif;
+    font-weight:normal;
+    font-size: 30px;
+    padding:0;
+    margin:3px 0 25px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .call3 {
+    font-family: 'NexusSansWebPro', sans-serif;
+    font-weight:normal;
+    font-size: 20px;
+    text-align: right;
+    padding:0;
+    margin:60px 0 25px 0;
+  }
+}
+
+.starter-template {
+  margin:0;
+  padding:0;
+}
+
+.bottomPad {
+  padding: 50px;
+}
